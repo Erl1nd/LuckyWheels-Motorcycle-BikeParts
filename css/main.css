@@ -1,0 +1,355 @@
+body {
+  font-family: 'Varela Round', sans-serif !important;
+}
+
+a {
+  font-family: 'Varela Round', sans-serif !important;
+}
+
+.btn:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+nav {
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  opacity: .8;
+}
+
+nav .navbar-brand {
+  font-size: 2rem;
+}
+
+nav .navbar-brand span {
+  color: red;
+}
+
+nav .navbar-toggler {
+  border: none;
+}
+
+nav .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+nav .navbar-toggler .navbar-toggler-icon {
+  background-image: url("../img/toggler.png");
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  margin-bottom: .7rem;
+}
+
+nav .navbar-nav {
+  margin-left: auto;
+}
+
+nav .navbar-nav .nav-item:not(:last-child) {
+  margin-right: 3rem;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+  color: white;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+nav .navbar-nav .nav-item .nav-link:hover {
+  color: red;
+}
+
+#masthead {
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  height: 100vh;
+}
+
+#masthead .background {
+  background-image: url("../img/tricycle.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+#masthead .overlay {
+  background-color: rgba(0, 0, 0, 0.712);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#masthead .container {
+  padding-top: 10rem;
+  text-align: center;
+}
+
+#masthead .container h1 {
+  font-weight: 900;
+  font-size: 5rem;
+}
+
+#masthead .container h1 span {
+  color: red;
+}
+
+#masthead .container .third-header {
+  margin-bottom: 4rem;
+}
+
+#masthead .container a {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  border: white 2px solid;
+  width: 10rem;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+#masthead .container a:hover {
+  background-color: red;
+}
+
+#masthead .container a:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media (max-width: 452px) {
+  #masthead .container h1 {
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-width: 403px) {
+  #masthead .container h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 370px) {
+  #masthead .container h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  #masthead .container h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-height: 570px) {
+  #masthead .container {
+    padding-top: 8rem;
+  }
+}
+
+@media (max-height: 515px) {
+  #masthead .container .third-header {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-height: 480px) {
+  #masthead .container .third-header {
+    margin-bottom: 1.5rem;
+  }
+}
+
+#about {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+#about h1 {
+  font-size: 3rem;
+}
+
+#about .card {
+  border: none;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+#about .card .card-img-top {
+  margin-bottom: 2.5rem;
+}
+
+#about .card h5 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#about .card h5 span {
+  color: red;
+}
+
+#about .card p {
+  margin-bottom: 3rem;
+}
+
+#about .card a {
+  color: white;
+  text-decoration: none;
+  border: white 2px solid;
+  text-align: center;
+  -webkit-transition: .7s all ease;
+  transition: .7s all ease;
+  width: 10rem;
+}
+
+#about .card a:hover {
+  background-color: red;
+  width: 100%;
+}
+
+#products {
+  padding-top: 7rem;
+}
+
+#products .container {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+#products h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#products .card {
+  border: none;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+
+#products .card .card-img-top {
+  margin-bottom: 1rem;
+}
+
+#products .card h5 {
+  font-size: 1.5rem;
+}
+
+#products .card h5 span {
+  color: red;
+}
+
+#products .card p {
+  margin-bottom: 3rem;
+}
+
+#products .card a {
+  color: white;
+  text-decoration: none;
+  border: white 2px solid;
+  text-align: center;
+  -webkit-transition: .7s all ease;
+  transition: .7s all ease;
+  width: 10rem;
+}
+
+#products .card a:hover {
+  background-color: red;
+  width: 100%;
+}
+
+#showcase {
+  height: 30vh;
+  position: relative;
+}
+
+#showcase .background {
+  background-image: url("../img/showcase.jpg");
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.contact-section {
+  background-color: rgba(0, 0, 0, 0.925);
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.contact-section .container {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.contact-section .card {
+  border-bottom: 2px gray solid !important;
+  margin-bottom: 5rem !important;
+}
+
+.contact-section .card i {
+  color: black !important;
+}
+
+.contact-section .card a {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#send {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  position: relative;
+  color: white;
+}
+
+#send .background {
+  background-image: url("../img/send.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+#send .overlay {
+  background-color: rgba(0, 0, 0, 0.637);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#send h1 {
+  margin-bottom: 2rem;
+}
+
+#send a {
+  background-color: transparent;
+  color: white;
+  width: 8rem;
+  border: white 2px solid;
+  -webkit-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+#send a:hover {
+  background-color: red;
+}
+/*# sourceMappingURL=main.css.map */
