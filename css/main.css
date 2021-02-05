@@ -124,6 +124,12 @@ nav .navbar-nav .nav-item .nav-link:hover {
           box-shadow: none;
 }
 
+@media (min-width: 992px) {
+  #masthead .container h1 {
+    font-size: 7rem;
+  }
+}
+
 @media (max-width: 452px) {
   #masthead .container h1 {
     font-size: 4.5rem;
@@ -173,6 +179,14 @@ nav .navbar-nav .nav-item .nav-link:hover {
 
 #about h1 {
   font-size: 3rem;
+}
+
+#about .first-col .card .card-body p {
+  margin-bottom: 6.1rem !important;
+}
+
+#about .third-col .card .card-body p {
+  margin-bottom: 4.8rem !important;
 }
 
 #about .card {
